@@ -60,3 +60,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Database
+
+To create the database, run the command:
+```sql
+CREATE DATABASE laravel_livewire CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
