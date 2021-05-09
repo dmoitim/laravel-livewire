@@ -2,4 +2,11 @@
     Show Tweets
     <p>{{ $message }}</p>
     <input type="text" name="message" id="message" wire:model="message">
+
+    <br>
+    <br>
+
+    @foreach ($tweets as $tweet)
+        {{ $tweet->user->name }} - {{ $tweet->content }}<br>
+    @endforeach
 </div>
